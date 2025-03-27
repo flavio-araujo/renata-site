@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://renatagoncalves.com/sitemap.xml 
+Sitemap: http://renatagoncalves.com/sitemap.xml
