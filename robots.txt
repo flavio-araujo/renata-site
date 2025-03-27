@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://renatagoncalves.com/sitemap.xml
+Allow: /facebookexternalhit
+Sitemap: https://renatagoncalves.com/sitemap.xml
