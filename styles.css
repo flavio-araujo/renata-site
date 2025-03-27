@@ -478,4 +478,22 @@ footer {
     .hamburger-menu.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
+
+    .sobre-content {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-image {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .sobre-text {
+        order: 1;
+    }
+
+    .education {
+        order: 2;
+        margin-top: 2rem;
+    }
 } 
