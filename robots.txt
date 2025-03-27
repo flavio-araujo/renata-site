@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://flavio-araujo.github.io/renata-site/sitemap.xml 
