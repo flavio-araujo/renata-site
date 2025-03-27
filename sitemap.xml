@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://flavio-araujo.github.io/renata-site/</loc>
+        <loc>https://renatagoncalves.com/</loc>
         <lastmod>2024-03-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://flavio-araujo.github.io/renata-site/#sobre</loc>
+        <loc>https://renatagoncalves.com/#sobre</loc>
         <lastmod>2024-03-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://flavio-araujo.github.io/renata-site/#especialidades</loc>
+        <loc>https://renatagoncalves.com/#especialidades</loc>
         <lastmod>2024-03-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://flavio-araujo.github.io/renata-site/#contato</loc>
+        <loc>https://renatagoncalves.com/#contato</loc>
         <lastmod>2024-03-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://flavio-araujo.github.io/renata-site/404.html</loc>
+        <loc>https://renatagoncalves.com/404.html</loc>
         <lastmod>2024-03-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.1</priority>
