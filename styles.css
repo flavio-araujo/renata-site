@@ -130,22 +130,31 @@ nav a:hover {
     color: #2C3E50;
     position: relative;
     z-index: 2;
+    white-space: nowrap;
 }
 
 .hero-content h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #2C3E50;
     margin-bottom: 1rem;
     position: relative;
     z-index: 2;
+    white-space: nowrap;
 }
 
 .hero-content p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #2C3E50;
     position: relative;
     z-index: 2;
+    font-weight: 500;
+}
+
+.hero-content p:last-child {
+    margin-bottom: 2rem;
+    color: #7B8C93;
+    font-weight: 600;
 }
 
 .cta-button {
@@ -495,5 +504,30 @@ footer {
     .education {
         order: 2;
         margin-top: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+        color: #2C3E50;
+        position: relative;
+        z-index: 2;
+        white-space: nowrap;
+    }
+
+    .hero-content h2 {
+        font-size: 1.1rem;
+        color: #2C3E50;
+        position: relative;
+        z-index: 2;
+        white-space: nowrap;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .hero-content p:last-child {
+        margin-bottom: 1.5rem;
     }
 } 
