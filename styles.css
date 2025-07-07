@@ -106,14 +106,14 @@ nav a:hover {
 
 /* Hero Section */
 #hero {
-    min-height: 80vh;
+    min-height: 60vh;
     background: linear-gradient(rgba(251, 227, 210, 0.95), rgba(251, 227, 210, 0.95)),
                 url('hero-bg.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 6rem 1rem 2rem;
+    padding: 5rem 1rem 1rem;
     background-color: #FBE3D2;
     position: relative;
 }
@@ -463,8 +463,8 @@ footer {
     }
 
     #hero {
-        min-height: 70vh;
-        padding: 5rem 1rem 2rem;
+        min-height: 45vh;
+        padding: 4rem 1rem 1rem;
     }
 
     section {
