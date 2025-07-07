@@ -384,7 +384,7 @@ footer {
 
 /* Contact Links */
 .contact-links {
-    display: flex;
+    display: flex;28,45
     justify-content: center;
     gap: 2rem;
     margin: 1.5rem 0;
