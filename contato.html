@@ -8,6 +8,16 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-P9PNPLKH');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BHQ3HW67J"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4BHQ3HW67J');
+    </script>   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -113,25 +123,6 @@
     </noscript>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
-    <!-- Google tag (gtag.js) -->
-    <script>
-      function loadGtag() {
-        if (window.gtagLoaded) return;
-        window.gtagLoaded = true;
-        var script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-4BHQ3HW67J';
-        script.async = true;
-        document.head.appendChild(script);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', 'G-4BHQ3HW67J');
-      }
-      window.addEventListener('scroll', loadGtag, { once: true });
-      window.addEventListener('click', loadGtag, { once: true });
-    </script>
     <script src="script.min.js" defer></script>
 </head>
 
