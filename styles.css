@@ -107,8 +107,7 @@ nav a:hover {
 /* Hero Section */
 #hero {
     min-height: 60vh;
-    background: linear-gradient(rgba(251, 227, 210, 0.95), rgba(251, 227, 210, 0.95)),
-                url('hero-bg.jpg') center/cover;
+    background: linear-gradient(rgba(251, 227, 210, 0.95), rgba(251, 227, 210, 0.95));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,7 +383,7 @@ footer {
 
 /* Contact Links */
 .contact-links {
-    display: flex;28,45
+    display: flex;
     justify-content: center;
     gap: 2rem;
     margin: 1.5rem 0;
