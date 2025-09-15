@@ -280,6 +280,106 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* Como Funciona Section */
+#como-funciona {
+    background-color: #FDFAF8;
+}
+
+.como-funciona-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7B8C93;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+.como-funciona-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.como-funciona-step {
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.como-funciona-step:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #7B8C93, #FBE3D2);
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    flex-shrink: 0;
+}
+
+.como-funciona-step h3 {
+    color: #7B8C93;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.como-funciona-step p {
+    color: #7B8C93;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.como-funciona-cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Links destacados na seção Como funciona */
+.destaque-link {
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    display: inline;
+    position: relative;
+}
+
+.whatsapp-link {
+    color: #25d366 !important;
+}
+
+.whatsapp-link:hover {
+    color: #128c7e !important;
+    text-decoration: underline;
+}
+
+.agendamento-link {
+    color: #7B8C93 !important;
+}
+
+.agendamento-link:hover {
+    color: #5a6b73 !important;
+    text-decoration: underline;
+}
+
 /* Contato Section */
 .contato-content {
     max-width: 600px;
@@ -331,6 +431,52 @@ h2 {
 .whatsapp-button:hover {
     background-color: #128C7E;
     color: #FFFFFF !important;
+}
+
+/* Instagram Posts Section */
+#instagram-posts {
+    background-color: #fdfaf8;
+    padding: 3rem 1rem;
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.instagram-post-placeholder {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos para o post incorporado do Instagram */
+.instagram-media {
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 400px !important;
+}
+
+/* Responsivo para posts do Instagram */
+@media (max-width: 768px) {
+    .instagram-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .instagram-media {
+        max-width: 100% !important;
+    }
 }
 
 /* Footer */
@@ -528,4 +674,29 @@ footer {
     .hero-content p:last-child {
         margin-bottom: 1.5rem;
     }
-} 
+
+    /* Como funciona responsive */
+    .como-funciona-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .como-funciona-step {
+        padding: 1.5rem;
+    }
+
+    .step-number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .como-funciona-step h3 {
+        font-size: 1.2rem;
+    }
+
+    .como-funciona-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+}
