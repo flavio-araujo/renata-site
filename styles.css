@@ -624,6 +624,10 @@ footer {
         padding-top: 6rem;
     }
 
+    #especialidades {
+        padding-top: 3rem;
+    }
+
     /* Hamburger menu animation */
     .hamburger-menu.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
