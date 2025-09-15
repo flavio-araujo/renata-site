@@ -121,7 +121,7 @@ nav a:hover {
     padding: 0 2rem; /* Adiciona preenchimento para evitar que o texto toque nas bordas */
     position: relative;
     z-index: 2;
-    white-space: nowrap; /* Garante que o conteúdo não quebre a linha */
+    white-space: normal; /* Permite quebra de linha para evitar corte */
 }
 
 .hero-content h1 {
@@ -130,6 +130,7 @@ nav a:hover {
     color: #2C3E50;
     position: relative;
     z-index: 2;
+    padding-top: 2rem;
 }
 
 .hero-content h2 {
@@ -166,17 +167,15 @@ nav a:hover {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-}
-
-.cta-button i {
     font-size: 1.2rem;
+    white-space: normal;
+    padding: 0 1rem;
 }
 
 .cta-button:hover {
     background-color: #000000;
     color: #FFFFFF;
 }
-
 /* Sections */
 section {
     padding: 3rem 1rem;
@@ -294,11 +293,11 @@ h2 {
 }
 
 .como-funciona-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
-    max-width: 1000px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -608,7 +607,13 @@ footer {
 
     #hero {
         min-height: 45vh;
-        padding: 4rem 1rem 1rem;
+        padding: 6rem 1rem 1rem;
+    }
+
+    .hero-content {
+        padding-top: 2rem;
+        white-space: normal;
+        padding: 2rem 1rem 0 1rem;
     }
 
     section {
@@ -655,7 +660,9 @@ footer {
         color: #2C3E50;
         position: relative;
         z-index: 2;
-        white-space: nowrap;
+        white-space: normal;
+        padding: 0;
+        margin-top: 0;
     }
 
     .hero-content h2 {
@@ -663,26 +670,8 @@ footer {
         color: #2C3E50;
         position: relative;
         z-index: 2;
-        white-space: nowrap;
-    }
-
-    .hero-content p {
-        font-size: 1.1rem;
-        margin-bottom: 0.8rem;
-    }
-    
-    .hero-content p:last-child {
-        margin-bottom: 1.5rem;
-    }
-
-    /* Como funciona responsive */
-    .como-funciona-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-
-    .como-funciona-step {
-        padding: 1.5rem;
+        white-space: normal;
+        padding: 0;
     }
 
     .step-number {
